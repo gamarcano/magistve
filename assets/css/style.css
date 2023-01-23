@@ -216,6 +216,34 @@ h6 {
 }
 
 
+/*--------------------------------------------------------------
+#  Comprar Button GM
+--------------------------------------------------------------*/
+.get-comprar-bt2 {
+  color: #000;
+  border-radius: 6px;
+  padding: 9px 28px 10px 28px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 26px;
+  font-weight: bold;
+  display: inline-block;
+  border: 5px solid #ffc451;
+}
+
+.get-comprar-btn:hover {
+  background: #ffbb38;
+  color: #343a40;  
+}
+
+@media (max-width: 992px) {
+  .get-comprar-btn {
+    padding: 7px 20px 8px 20px;
+    margin-right: 15px;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1245,6 +1273,93 @@ section {
 }
 
 .team .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+
+
+/*--------------------------------------------------------------
+# MetodoPago
+--------------------------------------------------------------*/
+.MetodoPago {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.MetodoPago .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.MetodoPago .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.MetodoPago .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+.MetodoPago .member .social a {
+  transition: color 0.3s;
+  color: #151515;
+  margin: 0 3px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.8);
+  transition: ease-in-out 0.3s;
+  color: #484848;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MetodoPago .member .social a:hover {
+  color: #151515;
+  background: #ffc451;
+}
+
+.MetodoPago .member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.MetodoPago .member .member-info {
+  padding: 25px 15px;
+}
+
+.MetodoPago .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #151515;
+}
+
+.MetodoPago .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.MetodoPago .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.MetodoPago .member:hover .social {
   opacity: 1;
   bottom: 15px;
 }

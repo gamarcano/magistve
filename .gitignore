@@ -6,4 +6,6 @@
 *.zip
 *.sublime-project
 *.sublime-workspace
+_psd/
+psd/
 dev/
