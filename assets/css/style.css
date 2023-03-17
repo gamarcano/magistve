@@ -219,6 +219,19 @@ h6 {
 /*--------------------------------------------------------------
 #  Comprar Button GM
 --------------------------------------------------------------*/
+.get-descarga-bt3 {
+  color: #000;
+  border-radius: 6px;
+  padding: 9px 28px 10px 28px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  border: 5px solid #ffc451;
+  justify-content: center;
+}
+
 .get-comprar-bt2 {
   color: #000;
   border-radius: 6px;
